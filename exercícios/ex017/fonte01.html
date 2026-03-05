@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+            cm, mm, in (polegadas), px, ponto, paica
+
+            Medidas realtivas:
+            em, ex (altura), rem (fonte), vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+
+            /* Weight (peso), Width (altura), Height (largura) */
+            
+        }
+
+        h1 {
+            /* shorthand font 
+            
+            - font-style -> font-wight -> font-size -> font-family (precisa seguir a ordem)
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet deserunt voluptas nisi iusto similique odit ea reiciendis officiis voluptatem dolorum eum quis magnam autem tempore quasi, aut maiores eos dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non, iste possimus enim ab beatae? Adipisci deleniti, excepturi earum maxime pariatur aspernatur? Quis culpa optio, et vero vel consequuntur ea?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae incidunt officiis consequatur hic cum corrupti harum provident sit, porro eum repudiandae consectetur quaerat dolorem esse ratione, non illum architecto beatae!</p>
+    <h2>Subtítulo do execício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, dicta minima! Qui, sequi vitae nisi illo officiis iste architecto voluptatum atque at saepe neque tempora dicta commodi et id corporis.</p>
+</body>
+</html>
